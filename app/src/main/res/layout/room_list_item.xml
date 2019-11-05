@@ -24,6 +24,7 @@
             android:layout_weight="1">
 
             <TextView
+                android:id="@+id/priceText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="8,000"
@@ -32,6 +33,7 @@
                 android:textColor="#FFA509"/>
 
             <TextView
+                android:id="@+id/addressAndFloorText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="마포구 서교동, 3층"

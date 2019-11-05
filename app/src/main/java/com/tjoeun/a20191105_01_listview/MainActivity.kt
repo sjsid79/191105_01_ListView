@@ -9,7 +9,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 class MainActivity : AppCompatActivity() {
 
     var roomList = ArrayList<RoomData>()
-    var roomAdapter:RoomData? = null
+    var roomAdapter:RoomDataAdapter? = null
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
